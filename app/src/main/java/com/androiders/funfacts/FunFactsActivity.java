@@ -36,7 +36,6 @@ public class FunFactsActivity extends AppCompatActivity {
         View.OnClickListener listener = new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
                 String fact = mFactBook.getFact();
                 int color = mColorWheel.getColors();
                 mFactTextView.setText(fact);
